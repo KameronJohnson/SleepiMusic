@@ -3,9 +3,9 @@ Rails.application.routes.draw do
   get 'pages/home'
   
   get '/about' => "pages#about"
-
   get 'pages/about'
 
+  get '/contact' => "pages#contact"
   get 'pages/contact'
 
   root "pages#home"
