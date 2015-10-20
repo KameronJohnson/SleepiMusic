@@ -4,7 +4,7 @@
 
 // night sky background image
 html body {
-    background: url("night.gif");
+    background: url("night2.gif");
 }
 
 // navbar gradient
@@ -14,4 +14,15 @@ html body {
   background:     -ms-linear-gradient(90deg, #232526 10%, #414345 90%); /* IE10 */
   background:      -o-linear-gradient(90deg, #232526 10%, #414345 90%); /* Opera 11.10+ */
   background:         linear-gradient(90deg, #232526 10%, #414345 90%); /* W3C */
+}
+
+.navbar-brand {
+  font-family: 'Roboto', sans-serif;
+  font-size: 2em;
+  padding: 11px 15px;
+}
+
+.navbar-nav {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.1em;
 }
